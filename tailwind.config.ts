@@ -1,10 +1,12 @@
 import type { Config } from 'tailwindcss'
-
+const {nextui} = require("@nextui-org/theme");
 const config: Config = {
   content: [
     './pages/**/*.{js,ts,jsx,tsx,mdx}',
     './components/**/*.{js,ts,jsx,tsx,mdx}',
     './app/**/*.{js,ts,jsx,tsx,mdx}',
+    "./node_modules/@nextui-org/theme/dist/**/*.{js,ts,jsx,tsx}",
+    "./src/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
     extend: {
@@ -15,6 +17,32 @@ const config: Config = {
       },
     },
   },
-  plugins: [],
+  darkMode: "class",
+  plugins: [
+    nextui({
+      prefix: "nextui", // prefix for themes variables
+      addCommonColors: false, // override common colors (e.g. "blue", "green", "pink").
+      defaultTheme: "dark", // default theme from the themes object
+      defaultExtendTheme: "dark", // default theme to extend on custom themes
+      layout: {}, // common layout tokens (applied to all themes)
+      themes: {
+        light: {
+          layout: {}, // light theme layout tokens
+          colors: {}, // light theme colors
+        },
+        dark: {
+          layout: {}, // dark theme layout tokens
+          colors: {
+            primary: {
+              DEFAULT: "#3ECF8E",
+              foreground: "#000000",
+            },
+            focus: "#3ECF8E",
+          }, // dark theme colors
+        },
+        // ... custom themes
+      },
+    }),
+  ],
 }
 export default config
