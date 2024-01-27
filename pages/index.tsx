@@ -15,8 +15,6 @@ export default function IndexPage() {
                 <HeroMain />
                 <Products />
             </div>
-
-            
             </DefaultLayout>
     </div>
         </>)
