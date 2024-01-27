@@ -66,26 +66,26 @@ export default function HeaderNext() {
               description=""
               startContent=<Image alt="Launchpad" height={26} width={26} radius="sm" src="/images/rocket-launch.png" />
             >
-              Mainnet
+            <Link color="foreground" href="https://explorer.halonode.top">Mainnet</Link>
             </DropdownItem>
             <DropdownItem
               key="usage_metrics"
               description=""
               startContent=<Image alt="LP" height={26} width={26} radius="sm" src="/images/secure.png" />
             >
-              Testnet
+            <Link color="foreground" href="https://explorer.halonode.top">Testnet</Link>
             </DropdownItem>
           </DropdownMenu>
         </Dropdown>
         <NavbarItem>
-          <Link color="foreground" href="#">
-            Networks
-          </Link>
+
+          <Link color="foreground" href="https://explorer.halonode.top">Networks</Link>
+
         </NavbarItem>
         <NavbarItem>
-        <Link color="foreground" href="#">
-          Services
-        </Link>
+
+        <Link color="foreground" href="https://explorer.halonode.top">Services</Link>
+
       </NavbarItem>
       </NavbarContent>
       <NavbarContent justify="end">

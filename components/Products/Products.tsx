@@ -1,6 +1,6 @@
 import React from "react";
 import { useRouter } from 'next/router'
-import {Card, CardHeader, CardBody, CardFooter, Image, Button} from "@nextui-org/react";
+import {Card, CardHeader, CardBody, CardFooter, Image, Button, Link} from "@nextui-org/react";
 import {Divider} from "@nextui-org/react";
 import {Spacer} from "@nextui-org/react";
 
@@ -35,9 +35,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
     
@@ -63,9 +63,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
     
@@ -91,9 +91,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
     
@@ -119,9 +119,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
 
@@ -147,9 +147,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
 
@@ -175,9 +175,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
 
@@ -203,9 +203,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
 
@@ -231,9 +231,9 @@ export default function Products() {
         src="https://nextui.org/images/card-example-4.jpeg"
       />
       <CardFooter className="absolute bg-black/40 bottom-0 z-10 border-t-1 border-default-600 dark:border-default-100">
-        <Button radius="full" size="sm" className="mr-1">Services</Button>
-        <Button radius="full" size="sm" className="mr-1">Explorer</Button>
-        <Button radius="full" size="sm">Delegate</Button>
+      <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Services</Link></Button>
+        <Button radius="full" size="sm" className="mr-1"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Explorer</Link></Button>
+        <Button radius="full" size="sm"><Link color="foreground" size="sm" href="https://explorer.halonode.top">Delegate</Link></Button>
       </CardFooter>
     </Card>
   </div>
