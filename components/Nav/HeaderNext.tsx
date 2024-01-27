@@ -5,13 +5,13 @@ import {AcmeLogo} from "./AcmeLogo.jsx";
 
 export default function HeaderNext() {
   const icons = {
-    chevron: <ChevronDown fill="currentColor" size={16} />,
-    scale: <Scale className="text-warning" fill="currentColor" size={30} />,
-    lock: <Lock className="text-success" fill="currentColor" size={30} />,
-    activity: <Activity className="text-secondary" fill="currentColor" size={30} />,
-    flash: <Flash className="text-primary" fill="currentColor" size={30} />,
-    server: <Server className="text-success" fill="currentColor" size={30} />,
-    user: <TagUser className="text-danger" fill="currentColor" size={30} />,
+    chevron: <ChevronDown fill="currentColor" size={16} height={16} width={16} />,
+    scale: <Scale className="text-warning" fill="currentColor" size={30} height={16} width={16} />,
+    lock: <Lock className="text-success" fill="currentColor" size={30} height={16} width={16} />,
+    activity: <Activity className="text-secondary" fill="currentColor" size={30} height={16} width={16} />,
+    flash: <Flash className="text-primary" fill="currentColor" size={30} height={16} width={16} />,
+    server: <Server className="text-success" fill="currentColor" size={30} height={16} width={16} />,
+    user: <TagUser className="text-danger" fill="currentColor" size={30} height={16} width={16} />,
   };
   const [isOpen, setIsOpen] = useState(false);
   const [timeoutId, setTimeoutId] = useState<any>(null);

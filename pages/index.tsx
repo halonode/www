@@ -1,7 +1,6 @@
 import DefaultLayout from '../components/Layouts/Default'
 
 import HeaderNext from '../components/Nav/HeaderNext'
-import SideNavbar  from '../components/Nav/SideNavbar'
 import Products  from '../components/Products/Products'
 import HeroMain  from '../components/Hero/HeroMain'
 
